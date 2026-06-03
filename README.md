@@ -111,3 +111,30 @@ Hence the program write a Python program that sorts a dictionary's:
 - Keys in alphabetical order
 - Values in alphabetical order
 has been executed successfully.
+
+# Exception Handling in Python: Avoiding Index Errors
+
+## 🎯 Aim
+To write a Python program that handles an **IndexError** when trying to access an element beyond the available range of a list.
+
+## 🧠 Algorithm
+1. Define a list `list1` with some integer elements.
+2. Use a **try-except** block:
+   - In the `try` block, attempt to access an index that is out of range (e.g., `list1[5]`).
+   - In the `except` block, catch the error and print a custom message `"You're out of list range"`.
+3. Print the result based on whether the index access succeeds or fails.
+
+## 🧾 Program
+```
+list1 = [10, 20, 30]
+
+try:
+    print(list1[5])
+except IndexError:
+    print("You're out of list range")
+```
+## Output
+<img width="921" height="202" alt="image" src="https://github.com/user-attachments/assets/851cc1bc-d8ca-4f68-a471-4594753743cc" />
+
+## Result
+Hence the task to write a Python program that handles an **IndexError** when trying to access an element beyond the available range of a list has been executed successfully.
