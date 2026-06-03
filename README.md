@@ -31,3 +31,31 @@ obj.mech(r)
 
 ## Result
 Hence the task to write a Python program that calculates the **area of a circle** based on the radius provided by the user. This program uses a class named `cse` and a method `mech` to perform the calculation has been done successfully.
+
+## Dictionary Operations in Python: Merging Two Dictionaries
+
+## 🎯 Aim
+To write a Python program that merges **two dictionaries** and combines their key-value pairs.
+
+## 🧠 Algorithm
+1. Define two dictionaries `dict1` and `dict2` with some key-value pairs.
+2. Define a function `merge()` that merges the two dictionaries using the `**` unpacking operator.
+   - The merged result will combine keys from both dictionaries. If a key exists in both, the value from `dict2` will overwrite that from `dict1`.
+3. Call the `merge()` function and print the merged dictionary.
+
+## 🧾 Program
+```
+dict1 = {'a': 1, 'b': 2}
+dict2 = {'c': 3, 'd': 4}
+
+def merge():
+    result = {**dict1, **dict2}
+    print(result)
+
+merge()
+```
+## Output
+<img width="921" height="206" alt="image" src="https://github.com/user-attachments/assets/fbc9a821-5c34-468a-8a53-ea550e04a6c2" />
+
+## Result
+Hence the program that merges **two dictionaries** and combines their key-value pairs has been executed successfully.
